@@ -9,3 +9,6 @@ os.system(cmd)
 path = str(dir_path) + "\\battery-report.html"
 
 webbrowser.open(path, new=2)
+
+# pyinstaller main.py -F -c --icon="path\to\icon\icon.ico"
+# pip freeze > requirements.txt
